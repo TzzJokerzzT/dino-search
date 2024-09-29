@@ -13,6 +13,8 @@ This is Dino Search use it to search you or your favorite github profile
 
 - [Dino Search](https://dino-search.vercel.app/)
 
+Have Fun
+
 ## Author
 
 [![Portfolio](https://img.shields.io/badge/tzzjokerzzt-fff?style=for-the-badge&logo=dev.to&logoColor=white&labelColor=101010)](https://alex-buelvas.vercel.app/)
