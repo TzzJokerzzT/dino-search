@@ -29,15 +29,13 @@ export const Context = createContext<ContextType>({
   handleSubmit: () => {},
   handleChange: () => {},
   onDelete: () => {},
-  // theme: "dark",
-  // setTheme: () => {},
+
   inputValue: "TzzJokerzzT",
 });
 
 export const ContextProvider = ({ children }: ProviderProps) => {
   const [userName, setUserName] = useState("");
   const [inputValue, setInputValue] = useState("");
-  // const [theme, setTheme] = useState("dark" || "light");
   const { profile, isLoading, error } = useProfileFetch(
     BASE_URL,
     userName || "TzzJokerzzT"
@@ -108,8 +106,6 @@ export const ContextProvider = ({ children }: ProviderProps) => {
         handleSubmit,
         handleChange,
         onDelete: handleDelete,
-        // theme,
-        // setTheme,
       }}
     >
       {children}
