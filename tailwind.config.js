@@ -37,10 +37,8 @@ module.exports = {
         },
         light: {
           colors: {
-            DEFAULT: "#c0c9d4",
-            primary: "hsl(217, 21%, 21%)",
-            secondary: "hsl(217, 20%, 51%)",
-            warning: "#eab308",
+            background: "#294360",
+            foreground: "#505b68",
           },
         },
       },

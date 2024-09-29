@@ -40,7 +40,7 @@ export const ContextProvider = ({ children }: ProviderProps) => {
   const [theme, setTheme] = useState("dark" || "light");
   const { profile, isLoading, error } = useProfileFetch(
     BASE_URL,
-    userName.length === 0 ? "TzzJokerzzT" : userName
+    userName || "TzzJokerzzT"
   );
 
   const {
