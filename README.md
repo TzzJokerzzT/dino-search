@@ -11,6 +11,8 @@ This is Dino Search use it to search you or your favorite github profile
 - [TypeScript](https://www.typescriptlang.org)
 - [Framer Motion](https://www.framer.com/motion)
 
+- [Dino Search](https://dino-search.vercel.app/)
+
 ## Author
 
 [![Portfolio](https://img.shields.io/badge/tzzjokerzzt-fff?style=for-the-badge&logo=dev.to&logoColor=white&labelColor=101010)](https://alex-buelvas.vercel.app/)
