@@ -23,6 +23,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src", "../../Cursos/React-Jonnas/worldwise/theme-switch.tsx"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
