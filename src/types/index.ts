@@ -50,8 +50,8 @@ export type ContextType = {
   handleSubmit: (e: React.FormEvent<HTMLFormElement>) => void;
   handleChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
   onDelete: () => void;
-  theme: string;
-  setTheme: React.Dispatch<React.SetStateAction<string>>;
+  // theme: string;
+  // setTheme: React.Dispatch<React.SetStateAction<string>>;
 };
 
 export interface InputProps {

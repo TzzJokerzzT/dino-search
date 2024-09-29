@@ -4,15 +4,6 @@ import { SearchIcon } from "../icons";
 
 import { InputProps } from "@/types";
 
-const styles = {
-  label: "text-black/50 dark:text-white/90",
-  input: [
-    "bg-transparent",
-    "text-black/90 dark:text-white/90",
-    "placeholder:text-default-700/50 dark:placeholder:text-white/60",
-  ],
-};
-
 const Inputs = ({ value, onChange, onClick }: InputProps) => {
   return (
     <Input

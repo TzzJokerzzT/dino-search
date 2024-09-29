@@ -1,4 +1,5 @@
-import BtnToggleTheme from "../Button/ToggleTheme";
+// import BtnToggleTheme from "../Button/ToggleTheme";
+import { ThemeSwitch } from "../theme-switch";
 
 const Navbar = () => {
   return (
@@ -8,8 +9,8 @@ const Navbar = () => {
           <img alt="Dino Logo" height={40} src="/dino.png" width={40} />
           <h1 className="text-3xl">Dino Search</h1>
         </div>
-        <BtnToggleTheme />
-        {/* <ThemeSwitch /> */}
+        {/* <BtnToggleTheme /> */}
+        <ThemeSwitch />
       </header>
     </>
   );
