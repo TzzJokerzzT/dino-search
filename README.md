@@ -1,6 +1,6 @@
 # Dino Searcg
 
-This is Dino Search use it to search you or your favorite github profile
+This is Dino Search use it to search you or your friends or favorite developers github profile
 
 ## Technologies Used
 
